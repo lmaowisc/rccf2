@@ -11,3 +11,4 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/lmaowisc/rccf
 BugReports: https://github.com/lmaowisc/rccf/issues
+RoxygenNote: 7.3.1
