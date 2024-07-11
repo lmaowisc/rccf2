@@ -9,6 +9,6 @@ Description: More about what it does (maybe more than one line)
 License: CC BY 4.0
 Encoding: UTF-8
 LazyData: true
-URL: https://github.com/lmaowisc/rccf
+URL: https://github.com/lmaowisc/rccf, https://lmaowisc.github.io/rccf/
 BugReports: https://github.com/lmaowisc/rccf/issues
 RoxygenNote: 7.3.1
