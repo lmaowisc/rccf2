@@ -1,6 +1,6 @@
 #main function
 
-recurr=function(id,time,status,trt){
+recf2=function(id,time,status,trt){
 
 #sample size
 n1=length(unique(id[trt==1]))
