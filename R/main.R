@@ -1,6 +1,8 @@
 #main function
 
-recf2=function(id,time,status,trt){
+rccf <- function(id,time,status,trt){
+
+  status[status!= 0] <- 3 - status[status!= 0]
 
 #sample size
 n1=length(unique(id[trt==1]))
@@ -69,7 +71,10 @@ stat=sqrt(n1*n2/n)*c(QLR,QD)
 #compute the variance function
 S=sigmafun(KLR=KLR,dPsi1=dPsi1,dPsi2=dPsi2,dMD1=dMD1,dMD2=dMD2,y1=y1,y2=y2,tau=tau)
 
-return(list(stat=stat,S=S,u1=u1,u2=u2,t=t))
+obj <- list(stat=stat,S=S,u1=u1,u2=u2,t=t)
+class(obj) <- "rccf"
+
+return(obj)
 
 }
 
