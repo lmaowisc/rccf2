@@ -4,9 +4,9 @@
 \name{rccf-package}
 \alias{rccf}
 \alias{rccf-package}
-\title{rccf: What the Package Does (Title Case)}
+\title{rccf: Cumulative Frequency of Recurrent Events in Presence of Death}
 \description{
-More about what it does (maybe more than one line) Use four spaces when indenting paragraphs within the Description.
+Nonparametric estimation and testing of the cumulative incidence function of recurrent events in the presence of death (Ghosh and Lin, 2000, \doi{10.1111/j.0006-341x.2000.00554.x}). Also implements joint test with log-rank statistic on death.
 }
 \seealso{
 Useful links:
@@ -15,6 +15,10 @@ Useful links:
   \item \url{https://lmaowisc.github.io/rccf/}
   \item Report bugs at \url{https://github.com/lmaowisc/rccf/issues}
 }
+
+}
+\author{
+\strong{Maintainer}: Lu Mao \email{lmao@biostat.wisc.edu} (\href{https://orcid.org/0000-0002-8626-9822}{ORCID})
 
 }
 \keyword{internal}
