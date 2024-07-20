@@ -3,7 +3,7 @@ pkgdown: 2.1.0
 pkgdown_sha: ~
 articles:
   bladder-tumor: bladder-tumor.html
-last_built: 2024-07-20T00:29Z
+last_built: 2024-07-20T00:33Z
 urls:
   reference: https://lmaowisc.github.io/rccf/reference
   article: https://lmaowisc.github.io/rccf/articles
