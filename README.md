@@ -1,10 +1,11 @@
----
-bibliography: references.bib
----
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # rccf2
 
-The **rccf2** package implements the @ghosh2000 approach to nonparametric estimation and (two-sample) testing of the cumulative frequency function of recurrent events in the presence of death.
+The **rccf2** package implements the @ghosh2000 approach to
+nonparametric estimation and (two-sample) testing of the cumulative
+frequency function of recurrent events in the presence of death.
 
 ## Installation
 
