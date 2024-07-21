@@ -1,4 +1,4 @@
-#main function
+# main function
 
 rccf <- function(id,time,status,trt){
 
