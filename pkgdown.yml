@@ -1,9 +1,9 @@
 pandoc: 3.1.11
-pkgdown: 2.1.0
+pkgdown: 2.1.1
 pkgdown_sha: ~
 articles:
   bladder-tumor: bladder-tumor.html
-last_built: 2024-07-21T00:52Z
+last_built: 2025-03-12T15:53Z
 urls:
   reference: https://lmaowisc.github.io/rccf/reference
   article: https://lmaowisc.github.io/rccf/articles
