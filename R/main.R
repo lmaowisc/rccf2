@@ -1,5 +1,6 @@
 # main function
 
+#' @export
 rccf <- function(id,time,status,trt){
 
   status[status!= 0] <- 3 - status[status!= 0]
